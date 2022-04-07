@@ -5,7 +5,7 @@ const Departments = require('../models/_department');
 /**
  * !PATH: /api/v1/departments
  * returns all the available product departments
- */
+ */           
 const getAllDepartments = handleAsync(async (req, res, next) => {
     const departmentArray = new Array();
 
